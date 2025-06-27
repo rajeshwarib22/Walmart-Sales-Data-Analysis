@@ -1,0 +1,53 @@
+# Ignore Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environments
+env/
+venv/
+ENV/
+.venv/
+my_env1/
+
+# Ignore environment variables and secret files
+.env
+.env.*
+
+# Ignore SQLite database files if any
+*.sqlite3
+*.db
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore VSCode and PyCharm project files
+.vscode/
+.idea/
+
+# Ignore macOS and system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore coverage and test result files
+.coverage
+coverage.xml
+htmlcov/
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore mypy and pylint cache
+.mypy_cache/
+.pylint.d/
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore node_modules if using frontend tools
+node_modules/
